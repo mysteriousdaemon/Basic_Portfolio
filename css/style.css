@@ -1,0 +1,190 @@
+
+/* ================================= 
+  Base  Styles
+==================================== */
+
+
+p {
+	font-family: Helvetica, Sans-serif;
+}
+
+.primary-column h1 {
+	padding-left: 25px;
+	color: #4aaaa5;
+	padding-bottom: 15px;
+	border-bottom: 3px solid #dddddd;
+	margin-top: 0;
+}
+
+.primary-column p {
+	color: #848383;
+	font-size: 1em;
+	line-height: 2rem;
+}
+
+.social-media h2 {
+	color: #4aaaa5;
+	text-align: center;
+	margin-top: 0;
+	padding-bottom: 15px;
+	border-bottom: 2px solid #dddddd;
+}
+
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+
+.main-nav {
+	float: right;
+	
+}
+
+.main-nav li {
+	font-size: .5rem;
+	vertical-align: middle;
+	color: #cccccc;
+	font-family: Helvetica, Sans-serif;
+}
+
+.name,
+.main-nav li {
+	text-align: center;
+}
+
+.name, 
+.main-nav,
+.main-nav li {
+	display: inline-block;
+}
+
+.name {
+	width: 240px;
+	margin-right: 5px;
+	float: left;
+	color: white;
+	background: #4aaaa5;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.main-nav a,
+.name a {
+	padding: 5px 15px;
+	text-decoration: none;
+	color: #999999;
+	font-size: 1.5em;
+}
+
+.primary-column {
+	border: 1px solid #dddddd;
+	margin-top: 30px;
+	padding: 20px 20px 20px 20px;
+	background: white;
+}
+
+.social-media {
+	border: 1px solid #dddddd;
+	margin-top: 30px;
+	padding: 20px 20px 20px 20px;
+	background: white;
+}
+
+/* ---- Layout Containers ---- */
+
+.wrap {
+	background-image: url("https://image.ibb.co/jKCZST/Bolinas_waves_3_8_2018_2_of_5.jpg");
+	background-repeat: no-repeat;
+	background-position: 25% 75%;
+	background-size: cover;
+}
+
+.main-header {
+	background: white;
+	margin-top: -10px;
+	border-bottom: solid 2px silver;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+.main-footer {
+	background: #666666;
+	text-align: center;
+	padding: 1em 0;
+	border-top: solid 5px #4aaaa5;
+}
+
+.main-footer p {
+	color: #cccccc;
+}
+
+.body-container {
+
+}
+
+
+/* ---- Images ---- */
+
+.feat-image {
+	width: 160px;
+	height: 240px;
+}
+
+.social-media-logo {
+	height: 75px;
+	width: 75px;
+	padding: 5px;
+}
+
+.social-media-logos {
+	text-align: center;
+}
+
+
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+
+	.container {
+		width: 80%;
+		max-width: 1150px;
+		margin: 0 auto;
+	}
+
+	.wrap {
+		min-height: calc(100vh - 87px);
+	}
+
+	.primary-column {
+		float: left;
+		width: 65%;
+	}
+
+	.social-media {
+		float: right;
+		width: 20%;
+		max-width: 300px;
+	}
+
+	.feat-image {
+		width: 160px;
+		height: 240px;
+		float: left;
+		margin: 7px 20px 10px 0;
+	}
+
+}
+
+
