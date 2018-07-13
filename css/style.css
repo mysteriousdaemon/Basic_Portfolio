@@ -9,11 +9,11 @@ p {
 }
 
 .primary-column h1 {
-	padding-left: 25px;
-	color: #4aaaa5;
+	color: #041496;
 	padding-bottom: 15px;
 	border-bottom: 3px solid #dddddd;
 	margin-top: 0;
+	font-family: Montserrat, helvetica, arial, sans-serif;
 }
 
 .primary-column p {
@@ -23,11 +23,12 @@ p {
 }
 
 .social-media h2 {
-	color: #4aaaa5;
+	color: #041496;
 	text-align: center;
 	margin-top: 0;
 	padding-bottom: 15px;
 	border-bottom: 2px solid #dddddd;
+	font-family: Montserrat, helvetica, arial, sans-serif;
 }
 
 
@@ -66,9 +67,11 @@ p {
 	margin-right: 5px;
 	float: left;
 	color: white;
-	background: #4aaaa5;
+	background: linear-gradient(to bottom, #041496, #0f6cb1);
 	margin-top: 0;
 	margin-bottom: 0;
+	border-right: 2px solid #cccccc;
+	font-family: Montserrat, helvetica, arial, sans-serif;
 }
 
 .main-nav a,
@@ -88,7 +91,6 @@ p {
 
 .social-media {
 	border: 1px solid #dddddd;
-	margin-top: 30px;
 	padding: 20px 20px 20px 20px;
 	background: white;
 }
@@ -114,12 +116,11 @@ p {
 	clear: both;
 }
 
-
 .main-footer {
 	background: #666666;
 	text-align: center;
 	padding: 1em 0;
-	border-top: solid 5px #4aaaa5;
+	border-top: solid 5px #0f6cb1;
 }
 
 .main-footer p {
@@ -148,7 +149,45 @@ p {
 	text-align: center;
 }
 
+/* ================================= 
+  Java Script
+==================================== */
 
+label {
+	font-family: sans-serif;
+	color: #777777;
+}
+
+.contact {
+	border: 1px solid #dddddd;
+	width: 100%; 
+	margin-top: 5px;
+	margin-bottom: 10px;
+
+}
+
+#contactlast {
+	height: 30px;
+}
+
+#contactfirst {
+	height: 30px;
+}
+
+input:focus, textarea:focus {
+  background   : rgba(0,0,0,.1);
+  border-radius: 5px;
+  outline      : none;
+}
+
+input[type="submit"] {
+	padding: 7px 17px 7px 17px;
+	background: linear-gradient(to bottom, #041496, #0f6cb1);
+	font-family: Montserrat, helvetica, arial, sans-serif;
+	font-size: 1rem;
+	color: white;
+
+}
 
 
 /* ================================= 
@@ -176,6 +215,7 @@ p {
 		float: right;
 		width: 20%;
 		max-width: 300px;
+		margin-top: 30px;
 	}
 
 	.feat-image {
