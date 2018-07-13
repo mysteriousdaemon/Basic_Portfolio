@@ -8,14 +8,6 @@ p {
 	font-family: Helvetica, Sans-serif;
 }
 
-.primary-column h1 {
-	color: #041496;
-	padding-bottom: 15px;
-	border-bottom: 3px solid #dddddd;
-	margin-top: 0;
-	font-family: Montserrat, helvetica, arial, sans-serif;
-}
-
 .primary-column p {
 	color: #848383;
 	font-size: 1em;
@@ -38,6 +30,14 @@ p {
 
 /* ---- Navigation ---- */
 
+.name a {
+	text-align: center;
+	color: #041496;
+	padding-bottom: 15px;
+	border-bottom: 3px solid #dddddd;
+	margin-top: 0;
+	font-family: Montserrat, helvetica, arial, sans-serif;
+}
 
 .main-nav {
 	float: right;
