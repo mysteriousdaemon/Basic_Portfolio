@@ -72,6 +72,8 @@ p {
 	margin-bottom: 0;
 	border-right: 2px solid #cccccc;
 	font-family: Montserrat, helvetica, arial, sans-serif;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 .main-nav a,
@@ -149,6 +151,10 @@ p {
 	text-align: center;
 }
 
+.comingsoon {
+	width: 100%;
+}
+
 /* ================================= 
   Java Script
 ==================================== */
@@ -186,7 +192,6 @@ input[type="submit"] {
 	font-family: Montserrat, helvetica, arial, sans-serif;
 	font-size: 1rem;
 	color: white;
-
 }
 
 
